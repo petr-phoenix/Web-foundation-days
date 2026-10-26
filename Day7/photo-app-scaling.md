@@ -1,0 +1,1 @@
+. Assumptions & Core MetricsRegistered Users: $10,000,000$ ($10\text{ million}$)Daily Active Users (DAU): $10\%$ of registered users $= 1,000,000$ ($1\text{ million}$) DAU.User Behavior:Uploads: Each active user uploads $1$ photo/day $\rightarrow 1,000,000\text{ uploads/day}$.Feed Views: Each active user views $50$ feed pages/day $\rightarrow 50,000,000\text{ feed views/day}$
