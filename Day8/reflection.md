@@ -1,0 +1,7 @@
+# Course Reflection
+
+The most difficult concept in this system design course was mastering concurrency control, specifically understanding the nuances between database row-level locking (pessimistic vs. optimistic concurrency) and distributed locking mechanisms using tools like Redis. Grasping how to prevent race conditions—like double-booking a seat—without severely degrading system performance during high traffic was highly challenging. I overcame this hurdle by stepping away from theoretical diagrams and building a small, isolated prototype. Simulating simultaneous purchase requests against a local database allowed me to see deadlocks and race conditions happen in real-time, which finally made the abstract concepts concrete.
+
+Regarding my Day8 capstone project, the main feedback I received highlighted a gap in my Virtual Waiting Room design.I didn't adequately address the edge cases. For example, I needed to explain how the system handles users who drop their connection while in the queue, or how to adjust the trickle-rate based on real-time database load. To improve the capstone project, I would design a more robust, event-driven queueing mechanism  and detail the client-side polling mechanisms. 
+
+Moving forward, my next learning objective is to learn how to automatically deploy, monitor, and scale these distributed microservices in a real cloud environment.
